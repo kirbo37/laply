@@ -83,7 +83,9 @@
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // BPM帯
-// $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
+                    $("<td width='40%'>" + info[i].BPM帯 + "</td>").appendTo(str);
+                    str.appendTo(obj);
+                    count++;
 
                     // Comment
                     $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);
